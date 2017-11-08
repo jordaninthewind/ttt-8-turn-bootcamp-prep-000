@@ -35,25 +35,6 @@ def move(board, index, value = "X")
   board[index] = value
 end
 
-# ask for input
-# get input
-# convert input to index
-# if index is valid
-#   make the move for index
-#   show the board
-# else
-#   ask for input again until you get a valid input
-# end
-
-# #turn
-#    asks the user for input by printing: "Please enter 1-9:" (FAILED - 1)
-#    gets the user input (FAILED - 2)
-#    calls the input_to_index method (FAILED - 3)
-#    validates the input correctly (FAILED - 4)
-#    asks for input again after a failed validation (FAILED - 5)
-#    makes valid moves (FAILED - 6)
-#    displays a correct board after a valid turn (FAILED - 7)
-
 def turn(board)
   puts "Please enter 1-9:"
   input = gets.chomp
